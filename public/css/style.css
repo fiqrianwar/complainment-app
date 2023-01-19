@@ -1,0 +1,46 @@
+    a{
+        color: black;
+        text-decoration: unset;
+    }
+
+    /* For Mobile Phones Portrait or Landscape View */
+    @media screen and (max-device-width: 640px) {
+        
+        .teks-complaiment,
+        .teks-detail
+        {
+            margin-top: 10% !important;
+        }
+
+        .card-complaiment
+        {
+            margin-top: 8% !important;
+        }
+
+        .card-detail{
+            width: 100% !important;
+            margin-top: 8% !important;
+        }
+        .card-detail p{
+            text-align: justify;
+        }
+        .btn-back{
+            width: 90% !important;
+            margin-bottom: 20%;
+        }
+
+        .card-form{
+            width: 100% !important;
+            margin-top: 10% !important;
+        }
+
+        .button-submit{
+            width: 100% !important;
+        }
+        
+        .teks-welcome{
+            margin-top: 10% !important;
+        }
+
+
+    }
